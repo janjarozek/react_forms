@@ -1,0 +1,73 @@
+div {
+  text-align: left;
+}
+
+button,
+input,
+select,
+p,
+textarea {
+  display: block;
+  text-align: left;
+  padding: 4px;
+  margin: 8px;
+  border-radius: 10px;
+  border: 1px solid #dcdcdc;
+  cursor: pointer;
+  color: #666666;
+  font-family: Arial;
+  font-size: 15px;
+}
+
+.selectLabel,
+.paragraph {
+  display: block;
+  text-align: left;
+  padding: 4px;
+  margin: 8px;
+  max-width: fit-content;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.header {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+  padding: 8px;
+  margin: 8px;
+  max-width: fit-content;
+  color: hsl(200, 100%, 50%);
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.checkboxLabel {
+  text-align: left;
+  display: inline;
+  padding: 5px;
+  margin: 5px;
+  color: #666666;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.checkbox {
+  display: inline-block;
+  text-align: left;
+  padding: 0px;
+  margin: 8px;
+  color: #666666;
+}
+
+.not-validated,
+::placeholder {
+  border: 2px solid hsl(0, 100%, 50%);
+  color: 2px solid hsl(0, 100%, 50%);
+}
+
+.validated {
+  border: 1px dotted hsl(120, 100%, 40%);
+  color: 1px dotted hsl(120, 100%, 40%);
+}
